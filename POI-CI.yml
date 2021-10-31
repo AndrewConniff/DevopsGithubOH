@@ -1,13 +1,13 @@
 name: POI-CI
 on:
 pull_request:
-    branches:[master, ch3]
+    branches:[main, ch3]
     paths:
     - apis/poi/**
     - .github/workflows/POI-CI.yml
  
  push:
-    branches:[master, ch3]
+    branches:[main, ch3]
     paths:
     - apis/poi/**
     - .github/workflows/POI-CI.yml
